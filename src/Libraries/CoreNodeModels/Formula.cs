@@ -47,7 +47,13 @@ namespace CoreNodeModels
                 }
             }
         }
-
+        public string FormattedFormulaString
+        {
+          get
+          {
+            return FormulaString + " dupa";
+          }
+        }
         public Formula()
         {
             ArgumentLacing = LacingStrategy.Auto;
