@@ -51,7 +51,7 @@ namespace CoreNodeModels
         {
           get
           {
-            return FormulaString + " dupa";
+            return FormulaString + " xxx";
           }
         }
         public Formula()
