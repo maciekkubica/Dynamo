@@ -49,10 +49,12 @@ namespace CoreNodeModels
         }
         public string FormattedFormulaString
         {
-          get
-          {
-            return FormulaString + " dupa";
-          }
+            get
+            {
+                var formula = FormulaString;
+                //formula = formula.Replace("/", " \\over ");
+                return "$$" + formula + "$$";
+            }
         }
         public Formula()
         {
